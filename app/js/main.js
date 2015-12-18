@@ -98,7 +98,7 @@ attack.on('click', function () {
 
       // // Good guy health show color change
       var gHealth = document.getElementById("gHealth");
-      gHealth.value = cell.hit(5);
+      gHealth.value = cell.hit(10);
       cHealth.getElementsByTagName("span")[100] = goku.health;
     }
 

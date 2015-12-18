@@ -2,23 +2,24 @@
   'use strict';
 
   //Good Guy
-  describe('About good guy', function() {
-
+  describe('About Goodguy', function() {
     //Before Each instance
     beforeEach(function() {
       window.x = new GoodGuy();
     });
 
+    
+
     describe('create a good guy', function(){
       it('should create an instance of good guy', function () {
-        //let x = new GoodGuy();
+        // let x = new GoodGuy();
         expect(x instanceof GoodGuy).to.equal(true);
       });
     });
 
     describe('my player health', function() {
       it('should have full health upon creation', function() {
-        //let x = new GoodGuy();
+        let x = new GoodGuy();
         expect(x.health).to.equal(100);
       });
     });
@@ -28,7 +29,7 @@
         //let x = new GoodGuy();
         x.hit();
         expect(x.health).to.be.below(100);
-      });
+      })
     });
 
   });
