@@ -2,15 +2,56 @@
 // See Readme for a list of supported ones
 
 body {
-  background: gold;
+  background: black;
 }
 
   .container {
-
+    color: white;
   }
     .banner {
-      background-image: url('http://vignette2.wikia.nocookie.net/dragonball/images/9/96/GokuVsFriezaEp102.png/revision/latest?cb=20121030195542');
-      background-size: contain;
-      height: 200px;
+      text-align: center;
+      background-image: url('http://dragonball.pics/images/goku/goku_vs_cell.gif');
+      background-size: cover;
+      height: 300px;
       width: 100%;
     }
+    .error {
+
+    }
+    .players {
+      height: 40%;
+      width: 100%;
+      text-align: center;
+    }
+      .player {
+        width: 30%;
+        background: gold;
+        border-radius: 3px;
+        padding-bottom: 1%;
+      }
+      .goku {
+        float: left;
+      }
+      .cell {
+        float: right;
+      }
+
+    .controlBtn {
+      width: 100%;
+      text-align: center;
+    }
+
+      button {
+        border: 0;
+        margin-top: 2%;
+        margin-bottom: 3%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        outline: none;
+        color: white;
+        font-size: 1em;
+        border-radius: 3px;
+        decoration: none;
+      }
+
+
