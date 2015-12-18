@@ -11,6 +11,10 @@ body {
   height: 300px;
   width: 100%; }
 
+.error {
+  width: 50%;
+  margin: auto; }
+
 .players {
   height: 40%;
   width: 100%;

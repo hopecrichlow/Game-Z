@@ -94,7 +94,7 @@ attack.on('click', function () {
       cHealth.getElementsByTagName('span')[100] = cell.health;
 
       // Error Msg for goku.hit
-      (0, _jquery2['default'])(".errorMessages").text("Cell IS Attacking!!!").fadeIn().fadeOut(), 5000;
+      (0, _jquery2['default'])(".errorMessages").text("Cell Is Attacking!!!").fadeIn().fadeOut(), 5000;
 
       // // Good guy health show color change
       var gHealth = document.getElementById("gHealth");

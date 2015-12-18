@@ -1,3 +1,5 @@
+import GoodGuy from './goodguy';
+
 (function() {
   'use strict';
 
