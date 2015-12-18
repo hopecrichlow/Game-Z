@@ -100,7 +100,7 @@ attack.on('click', function () {
       var gHealth = document.getElementById("gHealth");
       gHealth.value = cell.hit(5);
       cHealth.getElementsByTagName("span")[100] = goku.health;
-    };
+    }
 
   console.log(cell);
 });

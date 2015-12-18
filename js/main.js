@@ -47,7 +47,7 @@ attack.on('click', function() {
     gHealth.value = cell.hit(5);
     cHealth.getElementsByTagName("span")[100] = goku.health;
     
-  };
+  }
 
     console.log(cell);
   
