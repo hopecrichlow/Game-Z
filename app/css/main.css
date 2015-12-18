@@ -1,0 +1,10 @@
+body {
+  background: gold; }
+
+.banner {
+  background-image: url("http://vignette2.wikia.nocookie.net/dragonball/images/9/96/GokuVsFriezaEp102.png/revision/latest?cb=20121030195542");
+  background-size: contain;
+  height: 200px;
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
